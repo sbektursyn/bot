@@ -1,0 +1,96 @@
+.section {
+	width: 600px;
+	height: 400px;
+	border:2px solid gray;
+	border-radius: 10px;
+}
+
+.btn {
+	height: 22px;
+}
+
+.sends{
+	padding-top: 4px;
+	padding-left: 7px;
+}
+
+.messages {
+	width: 600px;
+	height: 370px;
+	border-bottom:2px solid gray;
+	display: flex;
+}
+
+#myText {
+	width: 530px;
+	border-radius: 5px;
+	border:0px;
+	border-bottom: 1px solid gray;
+}
+
+.sms{
+	width: 600px;
+	height: 30px;
+}
+.smswrapper{
+	display: inline-block;
+	height: 30px;
+	max-width:300px;
+}
+.text1{
+	width: 580px;
+	height: 30px;
+	padding-left: 5px;
+	padding-right: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.text{
+	width: 580px;
+	padding-left: 5px;
+	padding-right: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	margin-top: 60px;
+}
+
+.botsms{
+	width: 300px;
+	height: 30px;
+}
+
+.btext{
+	width: 600px;
+	height: 50px;
+	padding-left: 5px;
+	padding-right: 5px;
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
