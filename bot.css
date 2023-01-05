@@ -1,17 +1,26 @@
+
 .section {
-	width: 600px;
-	height: 400px;
+	width: 1000px;
+	height: 700px;
 	border:2px solid gray;
 	border-radius: 10px;
+	overflow: scroll;
+	margin-left: 400px;
 }
 
 .btn {
-	height: 22px;
+	width: 55px;
+	height: 36px;
+	border:2px solid gray;
+	border-radius: 10px;
+}
+.btn:active {
+	background-color: gray;
 }
 
 .sends{
 	padding-top: 4px;
-	padding-left: 7px;
+	margin-left: 400px;
 }
 
 .messages {
@@ -22,10 +31,11 @@
 }
 
 #myText {
-	width: 530px;
-	border-radius: 5px;
-	border:0px;
-	border-bottom: 1px solid gray;
+	padding-left: 10px;
+	font-size: 14px;
+	width: 930px;
+	height: 30px;
+	border-radius: 10px;
 }
 
 .sms{
@@ -33,12 +43,13 @@
 	height: 30px;
 }
 .smswrapper{
+	width: 950px;
 	display: inline-block;
 	height: 30px;
 	max-width:300px;
+	margin-left: 670px;
 }
 .text1{
-	width: 580px;
 	height: 30px;
 	padding-left: 5px;
 	padding-right: 5px;
@@ -46,15 +57,7 @@
 	flex-direction: column;
 	align-items: flex-end;
 }
-.text{
-	width: 580px;
-	padding-left: 5px;
-	padding-right: 5px;
-	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
-	margin-top: 60px;
-}
+
 
 .botsms{
 	width: 300px;
@@ -64,11 +67,49 @@
 .btext{
 	width: 600px;
 	height: 50px;
-	padding-left: 5px;
+	padding-left: 30px;
 	padding-right: 5px;
 	display: flex;
 	flex-direction: column;
 }
+
+.other {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+}
+.chats{
+	height: 700px;
+	overflow: scroll;
+}
+
+.search{
+	margin-top: 15px;
+	margin-left: 15px;
+	padding-left: 10px;
+	width: 345px;
+	height: 20px;
+	border-radius: 10px;
+}
+
+.friend{
+	display: flex;
+	margin-top: 20px;
+	margin-left: 15px;
+}
+
+.img{
+	padding: 0;
+	border:1px solid gray;
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+}
+
+.name{
+	margin-left: 15px;
+}
+
 
 
 
