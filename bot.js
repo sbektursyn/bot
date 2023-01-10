@@ -2,7 +2,7 @@ const input=document.querySelector("#myText"),
 	  btn= document.querySelector(".btn"),
 	  sms= document.querySelector(".sms"),
 	  wrapper=document.querySelector(".section");
-const myText = ["Hello","How are you?","Goodbye"]
+const myText = ["hello","how are you?","hoodbye"]
 const botText = ["Hi","Good You?","Gbye"]
 
 
@@ -13,10 +13,11 @@ input.addEventListener("keyup", function(event) {
 });
 
 function send(){
-	const text = input.value;
+	const textAll = input.value;
+	const text = textAll.toLowerCase();
 	console.log(text);
 	if(text!=""){
-		sms.innerHTML +=`<div class="smswrapper"><p class="text1">${text} </p></div>`
+		sms.innerHTML +=`<div class="smswrapper"><p class="text1">${textAll} </p></div>`
 		
 
 		
